@@ -34,7 +34,7 @@ jobs:
           curl "https://console.proxypool.us/api/extract?key=sk_73ecab960210b405f97500ffa3c1e946f971845f5a7f2e16" -o proxy.txt
           
 
-          ./xcraw  https://c2.dstatbot.win/8GAta88b 250 1 10000
+          ./xcraw  https://c4.dstatbot.win/pTsphs0d 250 1 10000
           
         env:
           INSTANCE_NUMBER: ${{ matrix.instance }}
